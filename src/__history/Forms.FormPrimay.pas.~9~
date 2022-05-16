@@ -1,0 +1,41 @@
+unit Forms.FormPrimay;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFormPrimary = class(TForm)
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrimary: TFormPrimary;
+
+implementation
+
+{$R *.dfm}
+
+uses Classes.Pessoa, Classes.Aluno;
+
+procedure TFormPrimary.Button1Click(Sender: TObject);
+var
+  lPessoas: TPessoa;
+  lAlunos : TAluno;
+  lNomePessoa : string;
+  lNomeEscola : string;
+begin
+  lPessoas  :=  TPessoa.Create;
+  lNomePessoa := lPessoas.GetNome;
+  lAlunos   :=  TAluno.Create;
+  lNomeEscola := lAlunos.GetNomeEscola;
+end;
+
+end.

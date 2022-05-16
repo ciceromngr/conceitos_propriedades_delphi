@@ -1,0 +1,35 @@
+unit Classes.Aluno;
+
+interface
+uses Classes.Pessoa;
+type
+  TAluno = class(TPessoa)
+    private
+      FMatricula    : string;
+      FNomeEscola   : string;
+    public
+      procedure NomeDefaultEscolaMatricula;
+      function GetNomeEscola: string;
+  end;
+implementation
+
+{ TAluno }
+
+function TAluno.GetNomeEscola: string;
+var
+  lAluno : TAluno;
+begin
+   lAluno := TAluno.Create;
+   Result := lAluno.FNomeEscola;
+end;
+
+procedure TAluno.NomeDefaultEscolaMatricula;
+var
+  lAluno: TAluno;
+begin
+  lAluno := TAluno.Create;
+  lAluno.FNomeEscola := 'Escola de Delphi';
+  lAluno.FMatricula  := '5487511254545ASD441';
+end;
+
+end.

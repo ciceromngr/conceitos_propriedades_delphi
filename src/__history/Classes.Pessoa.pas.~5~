@@ -1,0 +1,27 @@
+unit Classes.Pessoa;
+
+interface
+
+type
+  TPessoa = class
+    private
+      FNome     : string;
+      FTelefone : string;
+    public
+      function GetNome : string;
+  end;
+
+implementation
+
+{ TPessoa }
+
+function TPessoa.GetNome: string;
+var
+  lPessoa : TPessoa;
+begin
+  lPessoa := TPessoa.Create;
+  lPessoa.FNome := 'Eu sou uma pessoa';
+  Result := lPessoa.FNome;
+end;
+
+end.
