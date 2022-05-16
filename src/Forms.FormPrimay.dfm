@@ -13,14 +13,14 @@ object FormPrimary: TFormPrimary
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Button1: TButton
+  object Enviar: TButton
     Left = 264
     Top = 112
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = 'Enviar'
     TabOrder = 0
-    OnClick = Button1Click
+    OnClick = EnviarClick
   end
   object Edit1: TEdit
     Left = 248
@@ -28,6 +28,6 @@ object FormPrimary: TFormPrimary
     Width = 121
     Height = 21
     TabOrder = 1
-    Text = 'Edit1'
+    Text = 'Escreva seu nome'
   end
 end

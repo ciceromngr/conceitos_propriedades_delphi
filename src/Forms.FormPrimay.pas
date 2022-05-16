@@ -8,9 +8,9 @@ uses
 
 type
   TFormPrimary = class(TForm)
-    Button1: TButton;
+    Enviar: TButton;
     Edit1: TEdit;
-    procedure Button1Click(Sender: TObject);
+    procedure EnviarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,7 +26,7 @@ implementation
 
 uses Classes.Pessoa ;
 
-procedure TFormPrimary.Button1Click(Sender: TObject);
+procedure TFormPrimary.EnviarClick(Sender: TObject);
 var
   lPessoas: TPessoa;
 begin

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/13 11:17:19.000.303,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 07:17:51.189,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 07:18:01.761,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/16 07:20:45.991,D:\GIT\PROJECTS_DELPHI\CONCEITOS_PROPRIEDADE_DELPHI\src\Classes.Pessoa.pas=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/05/16 07:22:54.762,D:\GIT\PROJECTS_DELPHI\CONCEITOS_PROPRIEDADE_DELPHI\src\Forms.FormPrimay.pas=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 07:22:54.762,D:\GIT\PROJECTS_DELPHI\CONCEITOS_PROPRIEDADE_DELPHI\src\Forms.FormPrimay.dfm=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/05/16 07:26:00.215,=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 07:42:52.103,D:\GIT\PROJECTS_DELPHI\CONCEITOS_PROPRIEDADE_DELPHI\src\Classes.Aluno.pas=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/16 08:32:01.906,D:\GIT\PROJECTS_DELPHI\CONCEITOS_PROPRIEDADE_DELPHI\Projeto.Properties.dproj=C:\Users\Cicero Romao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
